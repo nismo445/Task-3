@@ -1,0 +1,131 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Miki Lauda</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/layout.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+      <header>
+        <img src="images/logo.svg" alt="logo" id="logo">
+        <nav>
+          <ul>
+            <li>home</li>
+            <li>news</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
+        </nav>
+        <div id="social_icons_bar">
+          <img src="images/google.svg" alt="google plus" class="remove_mobile">
+          <div class="line"></div>
+          <img src="images/facebook.svg" alt="facebook" class="remove_mobile">
+          <div class="line"></div>
+          <img src="images/youtube.svg" alt="youtube" class="remove_mobile">
+          <div class="line"></div>
+          <img src="images/search.svg" alt="search" id="search_icon" onclick="openSearch()">
+
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+
+                <img src="images/google.svg" alt="google plus" class="soc_for_burger">
+                <img src="images/facebook.svg" alt="facebook" class="soc_for_burger">
+                <img src="images/youtube.svg" alt="youtube" class="soc_for_burger">
+          </div>
+    </div>
+
+        </div>
+      </header>
+      <section id="hero">
+        <div class="section_div_layout">
+          <h1>
+            things aren't alwaysbr <br>
+            #000000 <br>
+            or <br>
+            #ffffff
+          </h1>
+          <img src="images/white.svg" alt="logo">
+        </div>
+      </section>
+      <section id="video">
+          <div class="section_div_layout">
+            <h1 class="section_headline">
+              <span style="text-transform: uppercase">videos | </span> view all videos
+            </h1>
+            <div class="video_player">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vdCrvRY7C8w" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video_player">
+              <iframe width="100%" height="100%" class="remove" src="https://www.youtube.com/embed/-1R6vJ8DmZ0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+      </section>
+      <section id="news">
+          <div>
+            <h1 class="section_headline">
+              <span style="text-transform: uppercase">news | </span> view all news
+            </h1>
+            <div class="news_article">
+              <img src="images/news1.gif" alt="article cover">
+              <h1 class="news_title move-up">
+                Typography Lab
+              </h1>
+              <a style="display: none;" class="remove_btn">read more</a>
+            </div>
+            <div class="news_article remove">
+              <img src="images/news2.gif" alt="article cover">
+              <h1 class="news_title move-up">
+                Typography Lab
+              </h1>
+              <a style="display: none;" class="remove remove_btn">read more</a>
+            </div>
+            <div class="news_article">
+              <img src="images/news3.gif" alt="article cover">
+              <h1 class="news_title move-up">
+                Typography Lab
+              </h1>
+              <a style="display: none;" class="remove remove_btn">read more</a>
+            </div>
+            <div class="news_article">
+              <img src="images/news4.gif" alt="article cover">
+              <h1 class="news_title move-up">
+                Typography Lab
+              </h1>
+              <a style="display: none;" class="remove_btn">read more</a>
+            </div>
+          </div>
+      </section>
+      <section id="featured">
+          <div  class="clear_flex" >
+            <h1 class="section_headline">
+              <span style="text-transform: uppercase">videos | </span> view all videos
+            </h1>
+            <div class="featured_div">
+                <h1>Responsive Web Design</h1>
+                <img src="images/finger.svg" alt="responsive">
+                <p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+                <a>read more</a>
+            </div>
+            <div class="featured_div">
+                <h1>Responsive Web Design</h1>
+                <img src="images/app.svg" alt="responsive">
+                <p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+                <a>read more</a>
+            </div>
+          </div>
+      </section>
+      <footer>
+       <p>H T M L + C S S = R E S P O N S I V E</p>
+      </footer>
+    </body>
+    </html>
